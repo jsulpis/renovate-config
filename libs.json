@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>jsulpis/renovate-config:base", ":pinOnlyDevDependencies"],
+  "packageRules": [
+    {
+      "matchDepTypes": ["dependencies"],
+      "semanticCommitType": "chore"
+    },
+    {
+      "matchDepTypes": ["!dependencies"],
+      "semanticCommits": "disabled"
+    }
+  ]
+}

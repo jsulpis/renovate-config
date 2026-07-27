@@ -1,0 +1,10 @@
+{
+  "name": "renovate-config-jsulpis",
+  "version": "0.0.0",
+  "private": "true",
+  "description": "Renovate Bot config for jsulpis repositories",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx --package=renovate -- renovate-config-validator ./{default,base,apps,libs}.json"
+  }
+}
