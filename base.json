@@ -4,13 +4,14 @@
     "config:best-practices",
     "group:allNonMajor",
     "group:pnpm",
-    "schedule:nonOfficeHours"
+    "group:playwrightMonorepo",
+    "schedule:earlyMondays"
   ],
   "reviewers": ["jsulpis"],
   "labels": ["dependencies"],
   "packageRules": [
     {
-      "matchManagers": ["github-actions"],
+      "matchDepTypes": ["action"],
       "groupName": "github-actions"
     }
   ]
