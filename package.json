@@ -5,6 +5,6 @@
   "description": "Renovate Bot config for jsulpis repositories",
   "license": "MIT",
   "scripts": {
-    "test": "npx --package=renovate -- renovate-config-validator ./{default,base,apps,libs}.json"
+    "test": "npx --package=renovate -- renovate-config-validator ./default.json ./base.json ./apps.json ./libs.json"
   }
 }

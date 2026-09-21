@@ -13,6 +13,10 @@
     {
       "matchDepTypes": ["action"],
       "groupName": "github-actions"
+    },
+    {
+      "matchPackageNames": ["mcr.microsoft.com/playwright"],
+      "groupName": "playwright monorepo"
     }
   ]
 }
